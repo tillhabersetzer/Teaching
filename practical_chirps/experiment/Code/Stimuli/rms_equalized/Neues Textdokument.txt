@@ -1,0 +1,2 @@
+same rms value 
+click is full scale [-1,1] as reference

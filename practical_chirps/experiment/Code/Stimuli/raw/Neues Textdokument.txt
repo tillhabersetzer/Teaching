@@ -1,0 +1,1 @@
+full scale signals [-1,1]
