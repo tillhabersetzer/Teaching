@@ -1,0 +1,3 @@
+do_mne_prewhiten and do_mne are doing the same thing except that the data is whitened explicitly in do_mne_prewhiten.
+In case of subject04 the results seems to look better for the prewhiten approach. So this one is the preferred option.
+The results show only minor differences.
