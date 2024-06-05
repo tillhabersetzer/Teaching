@@ -5,9 +5,8 @@ clear settings
 
 % Define paths
 %-------------
-settings.path2fieldtrip = fullfile('C:','Users','tillhabersetzer','Nextcloud','Synchronisation','Projekte','Toolboxen','fieldtrip-20221009');
-% settings.path2fieldtrip = fullfile('C:','Users','tillhabersetzer','Nextcloud','Synchronisation','Projekte','Toolboxen','fieldtrip-20220917');
-settings.path2project   = fullfile('M:','Blockpraktikum2022','analysis');
+settings.path2fieldtrip = fullfile('C:','Users','tillhabersetzer','Nextcloud','Synchronisation','Projekte','Toolboxen','fieldtrip-2024');
+settings.path2project   = fullfile('C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Teaching\practical_chirps');
 
 % settings.path2openmeeg = fullfile('C:','Users','tillhabersetzer','Nextcloud','Synchronisation','Projekte','Toolboxen','OpenMEEG');
 % settings.path2iso2mesh = fullfile('C:','Users','tillhabersetzer','Nextcloud','Synchronisation','Projekte','Toolboxen','iso2mesh');
