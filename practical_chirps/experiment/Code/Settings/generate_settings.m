@@ -32,8 +32,8 @@ Settings.Calibration.peakSPL.AttdB       = Settings.Calibration.peakSPL.TargetLe
 % Create Settings-file
 %--------------------------------------------------------------------------
 Settings.Setup       = 'Practical MEG';
-Settings.Driver      = 'ASIO Fireface USB'; % soundcard driver
-% Settings.Driver      = 'Focusrite USB ASIO';
+% Settings.Driver      = 'ASIO Fireface USB'; % soundcard driver
+Settings.Driver      = 'Focusrite USB ASIO';
 Settings.SampFreq    = 44100;
 Settings.Nstimuli    = 1200;
 Settings.Jitter      = [0.35,0.05];         % 350 ms + 50 ms randomized jitter
