@@ -7,11 +7,11 @@
 %--------------------------------------------------------------------------
 
 close all
-clear all
+clearvars
 clc
 
 % Import settings
-settings = importdata(fullfile('..','settings','settings_hearing_threshold.mat'));
+settings = importdata(fullfile('..','settings','settings_experiment.mat'));
 fs       = settings.samp_freq;
 
 % Generate 1000 Hz sinus (1 sec) and concatenate
@@ -32,7 +32,7 @@ figure
 plot(time,sig,'-x')
 hold on
 plot(time+time(end)+1/fs,sig,'-x')
-xlim([1-1/freq,1+1/freq])
+xlim([10-1/freq,10+1/freq])
 
 % Soundcheck
 %-----------

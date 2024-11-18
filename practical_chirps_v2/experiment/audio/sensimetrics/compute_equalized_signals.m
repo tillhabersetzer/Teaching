@@ -3,7 +3,7 @@ clearvars
 clc
 
 % Add filter function
-root_path = fullfile('..','..','..','..','transfer_function','sensimetrics_s14');
+root_path = fullfile('C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Transferfunctions\sensimetrics_s14');
 addpath(fullfile(root_path,'EQfiltering_Matlab_Utility'))
 % addpath('C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Teaching\practical_chirps_v2\transfer_function\sensimetrics_s14\EQfiltering_Matlab_Utility')
 
@@ -43,10 +43,10 @@ legend('Left impulse response','Right impulse response')
 
 %% Load audio 
 %--------------------------------------------------------------------------
-condition = 'click';
+% condition = 'click';
 % condition = 'up';
 % condition = 'down';
-% condition = 'sinus_1000Hz';
+condition = 'sinus_1000Hz';
 
 % Import left right and both
 [audio,fs]  = audioread(fullfile('..','tip300',[condition,'.wav']));

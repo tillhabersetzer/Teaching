@@ -18,7 +18,8 @@ concatenate_stim = false;
 
 % Load audio signals
 %-------------------
-audionames = {'click','up','down','up_dau'};
+% audionames = {'click','up','down','up_dau'};
+audionames = {'click','up','down'};
 S          = length(audionames);
 sig        = cell(1,S);
 audio      = cell(1,S);
