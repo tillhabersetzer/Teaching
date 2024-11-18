@@ -1,0 +1,4 @@
+do_dipolefitting_prewhiten and do_dipolefitting are doing nearly the same thing except that the data is whitened explicitly in do_dipolefitting_prewhiten.
+The prewhitening approach uses all sensors, the other one only megplanar for further analysis. 
+In case of subject04 the results look quite similar with only minor differences. 
+So it might be desirable to use the prewhitened dataset.
