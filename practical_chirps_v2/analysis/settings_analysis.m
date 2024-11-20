@@ -1,5 +1,5 @@
 %--------------------------------------------------------------------------
-% Till Habersetzer, 11.11.2024
+% Till Habersetzer, 19.11.2024
 % Communication Acoustics, CvO University Oldenburg
 % till.habersetzer@uol.de
 %--------------------------------------------------------------------------
@@ -9,7 +9,7 @@ clear settings
 
 % Define paths
 %-------------
-settings.path2fieldtrip = fullfile('C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\Toolboxen\fieldtrip-20240620');
+settings.path2fieldtrip = fullfile('C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\Toolboxen\fieldtrip-20241025');
 settings.path2project   = fullfile('C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Teaching\practical_chirps_v2');
 
 % settings.path2openmeeg = fullfile('C:','Users','tillhabersetzer','Nextcloud','Synchronisation','Projekte','Toolboxen','OpenMEEG');

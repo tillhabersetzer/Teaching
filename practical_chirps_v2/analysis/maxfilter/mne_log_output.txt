@@ -1,0 +1,211 @@
+2024-11-20 02:50:55,309 - INFO - Maxwell filtering raw data
+2024-11-20 02:50:55,334 - INFO - 102 of 102 magnetometer types replaced with T3.
+2024-11-20 02:50:55,365 - INFO - No bad MEG channels
+2024-11-20 02:50:55,376 - INFO - Processing 204 gradiometers and 102 magnetometers
+2024-11-20 02:50:55,380 - INFO - Using fine calibration sss_cal.dat
+2024-11-20 02:50:55,449 - INFO - Adjusting non-orthogonal EX and EY
+2024-11-20 02:50:55,487 - INFO - Adjusted coil positions by (μ ± σ): 0.2° ± 0.2° (max: 1.5°)
+2024-11-20 02:50:55,491 - INFO - Automatic origin fit: head of radius 93.7 mm
+2024-11-20 02:50:55,493 - INFO - Using origin 1.5, 10.0, 45.3 mm in the head frame
+2024-11-20 02:50:55,587 - INFO - Processing data using tSSS with st_duration=10.0
+2024-11-20 02:50:57,230 - INFO - Using 85/95 harmonic components for    0.000  (70/80 in, 15/15 out)
+2024-11-20 02:50:57,257 - INFO - Loading raw data from disk
+2024-11-20 02:50:59,731 - INFO - Spatiotemporal window did not fit evenly intocontiguous data segment. 2.00 seconds were lumped into the previous window.
+2024-11-20 02:50:59,732 - INFO - Processing 59 data chunks
+2024-11-20 02:51:03,222 - INFO - Projecting  0 intersecting tSSS components for    0.000 -    9.999 s  (#1/59)
+2024-11-20 02:51:07,423 - INFO - Projecting  0 intersecting tSSS components for   10.000 -   19.999 s  (#2/59)
+2024-11-20 02:51:16,440 - INFO - Opening raw data file C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-01\meg\sub-00_ses-01_task-transient_all.fif...
+2024-11-20 02:51:16,440 - ERROR - c:\users\tillhabersetzer\nextcloud\synchronisation\projekte\github\teaching\practical_chirps_v2\analysis\maxfilter\dummy_log.py:31: RuntimeWarning: This filename (C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-01\meg\sub-00_ses-01_task-transient_all.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  raw1 = mne.io.read_raw_fif(data_path1, allow_maxshield=False, verbose=True)
+2024-11-20 02:51:16,453 - INFO - Read a total of 8 projection items:
+2024-11-20 02:51:16,453 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,453 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,453 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,453 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,453 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,453 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,453 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,453 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,462 - INFO - Range : 21000 ... 615999 =     21.000 ...   615.999 secs
+2024-11-20 02:51:16,464 - INFO - Ready.
+2024-11-20 02:51:16,473 - INFO - Opening raw data file C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-02\meg\sub-00_ses-02_task-transient_all.fif...
+2024-11-20 02:51:16,473 - ERROR - c:\users\tillhabersetzer\nextcloud\synchronisation\projekte\github\teaching\practical_chirps_v2\analysis\maxfilter\dummy_log.py:36: RuntimeWarning: This filename (C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-02\meg\sub-00_ses-02_task-transient_all.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  raw2 = mne.io.read_raw_fif(data_path2, allow_maxshield=False, verbose=True)
+2024-11-20 02:51:16,487 - INFO - Read a total of 8 projection items:
+2024-11-20 02:51:16,487 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,487 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,487 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,487 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,487 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,487 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,487 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,487 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:51:16,496 - INFO - Range : 33000 ... 624999 =     33.000 ...   624.999 secs
+2024-11-20 02:51:16,496 - INFO - Ready.
+2024-11-20 02:51:16,505 - INFO - Maxwell filtering raw data
+2024-11-20 02:51:16,535 - INFO - 102 of 102 magnetometer types replaced with T3.
+2024-11-20 02:51:16,569 - INFO - No bad MEG channels
+2024-11-20 02:51:16,580 - INFO - Processing 204 gradiometers and 102 magnetometers
+2024-11-20 02:51:16,585 - INFO - Using fine calibration sss_cal.dat
+2024-11-20 02:51:16,673 - INFO - Adjusting non-orthogonal EX and EY
+2024-11-20 02:51:16,731 - INFO - Adjusted coil positions by (μ ± σ): 0.2° ± 0.2° (max: 1.5°)
+2024-11-20 02:51:16,739 - INFO - Automatic origin fit: head of radius 93.7 mm
+2024-11-20 02:51:16,740 - INFO - Using origin 1.5, 10.0, 45.3 mm in the head frame
+2024-11-20 02:51:16,873 - INFO - Processing data using tSSS with st_duration=10.0
+2024-11-20 02:51:18,022 - INFO - Using 85/95 harmonic components for    0.000  (70/80 in, 15/15 out)
+2024-11-20 02:51:18,053 - INFO - Loading raw data from disk
+2024-11-20 02:51:20,631 - INFO - Spatiotemporal window did not fit evenly intocontiguous data segment. 2.00 seconds were lumped into the previous window.
+2024-11-20 02:51:20,631 - INFO - Processing 59 data chunks
+2024-11-20 02:51:29,348 - INFO - Projecting  0 intersecting tSSS components for    0.000 -    9.999 s  (#1/59)
+2024-11-20 02:51:31,967 - INFO - Projecting  0 intersecting tSSS components for   10.000 -   19.999 s  (#2/59)
+2024-11-20 02:51:33,421 - INFO - Projecting  0 intersecting tSSS components for   20.000 -   29.999 s  (#3/59)
+2024-11-20 02:51:36,222 - INFO - Projecting  0 intersecting tSSS components for   30.000 -   39.999 s  (#4/59)
+2024-11-20 02:51:46,707 - INFO - Projecting  0 intersecting tSSS components for   40.000 -   49.999 s  (#5/59)
+2024-11-20 02:51:52,875 - INFO - Projecting  0 intersecting tSSS components for   50.000 -   59.999 s  (#6/59)
+2024-11-20 02:52:11,139 - INFO - Opening raw data file C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-01\meg\sub-00_ses-01_task-transient_all.fif...
+2024-11-20 02:52:11,139 - ERROR - c:\users\tillhabersetzer\nextcloud\synchronisation\projekte\github\teaching\practical_chirps_v2\analysis\maxfilter\dummy_log.py:44: RuntimeWarning: This filename (C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-01\meg\sub-00_ses-01_task-transient_all.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  raw1 = mne.io.read_raw_fif(data_path1, allow_maxshield=False, verbose=True)
+2024-11-20 02:52:11,153 - INFO - Read a total of 8 projection items:
+2024-11-20 02:52:11,153 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,153 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,153 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,153 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,153 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,153 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,153 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,153 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,163 - INFO - Range : 21000 ... 615999 =     21.000 ...   615.999 secs
+2024-11-20 02:52:11,163 - INFO - Ready.
+2024-11-20 02:52:11,174 - INFO - Opening raw data file C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-02\meg\sub-00_ses-02_task-transient_all.fif...
+2024-11-20 02:52:11,174 - ERROR - c:\users\tillhabersetzer\nextcloud\synchronisation\projekte\github\teaching\practical_chirps_v2\analysis\maxfilter\dummy_log.py:49: RuntimeWarning: This filename (C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-02\meg\sub-00_ses-02_task-transient_all.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  raw2 = mne.io.read_raw_fif(data_path2, allow_maxshield=False, verbose=True)
+2024-11-20 02:52:11,193 - INFO - Read a total of 8 projection items:
+2024-11-20 02:52:11,193 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,193 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,193 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,193 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,193 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,193 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,193 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,193 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:52:11,204 - INFO - Range : 33000 ... 624999 =     33.000 ...   624.999 secs
+2024-11-20 02:52:11,204 - INFO - Ready.
+2024-11-20 02:52:11,215 - INFO - Maxwell filtering raw data
+2024-11-20 02:52:11,241 - INFO - 102 of 102 magnetometer types replaced with T3.
+2024-11-20 02:52:11,273 - INFO - No bad MEG channels
+2024-11-20 02:52:11,286 - INFO - Processing 204 gradiometers and 102 magnetometers
+2024-11-20 02:52:11,290 - INFO - Using fine calibration sss_cal.dat
+2024-11-20 02:52:11,372 - INFO - Adjusting non-orthogonal EX and EY
+2024-11-20 02:52:11,432 - INFO - Adjusted coil positions by (μ ± σ): 0.2° ± 0.2° (max: 1.5°)
+2024-11-20 02:52:11,440 - INFO - Automatic origin fit: head of radius 93.7 mm
+2024-11-20 02:52:11,441 - INFO - Using origin 1.5, 10.0, 45.3 mm in the head frame
+2024-11-20 02:52:11,585 - INFO - Processing data using tSSS with st_duration=10.0
+2024-11-20 02:52:14,564 - INFO - Using 85/95 harmonic components for    0.000  (70/80 in, 15/15 out)
+2024-11-20 02:52:15,194 - INFO - Loading raw data from disk
+2024-11-20 02:52:17,887 - INFO - Spatiotemporal window did not fit evenly intocontiguous data segment. 2.00 seconds were lumped into the previous window.
+2024-11-20 02:52:17,887 - INFO - Processing 59 data chunks
+2024-11-20 02:52:20,389 - INFO - Projecting  0 intersecting tSSS components for    0.000 -    9.999 s  (#1/59)
+2024-11-20 02:52:22,010 - INFO - Projecting  0 intersecting tSSS components for   10.000 -   19.999 s  (#2/59)
+2024-11-20 02:52:27,442 - INFO - Projecting  0 intersecting tSSS components for   20.000 -   29.999 s  (#3/59)
+2024-11-20 02:52:31,905 - INFO - Projecting  0 intersecting tSSS components for   30.000 -   39.999 s  (#4/59)
+2024-11-20 02:52:35,210 - INFO - Projecting  0 intersecting tSSS components for   40.000 -   49.999 s  (#5/59)
+2024-11-20 02:52:36,761 - INFO - Projecting  0 intersecting tSSS components for   50.000 -   59.999 s  (#6/59)
+2024-11-20 02:52:45,914 - INFO - Projecting  0 intersecting tSSS components for   60.000 -   69.999 s  (#7/59)
+2024-11-20 02:52:47,180 - INFO - Projecting  0 intersecting tSSS components for   70.000 -   79.999 s  (#8/59)
+2024-11-20 02:52:49,241 - INFO - Projecting  0 intersecting tSSS components for   80.000 -   89.999 s  (#9/59)
+2024-11-20 02:52:51,561 - INFO - Projecting  0 intersecting tSSS components for   90.000 -   99.999 s (#10/59)
+2024-11-20 02:52:52,999 - INFO - Projecting  0 intersecting tSSS components for  100.000 -  109.999 s (#11/59)
+2024-11-20 02:52:55,120 - INFO - Projecting  0 intersecting tSSS components for  110.000 -  119.999 s (#12/59)
+2024-11-20 02:52:57,368 - INFO - Projecting  0 intersecting tSSS components for  120.000 -  129.999 s (#13/59)
+2024-11-20 02:53:40,083 - INFO - Opening raw data file C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-01\meg\sub-00_ses-01_task-transient_all.fif...
+2024-11-20 02:53:40,083 - ERROR - C:\Users\tillhabersetzer\AppData\Local\Temp\ipykernel_31640\2839474741.py:3: RuntimeWarning: This filename (C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-01\meg\sub-00_ses-01_task-transient_all.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  raw1 = mne.io.read_raw_fif(data_path1, allow_maxshield=False, verbose=True)
+2024-11-20 02:53:40,114 - INFO - Read a total of 8 projection items:
+2024-11-20 02:53:40,114 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,114 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,114 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,114 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,115 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,115 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,115 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,115 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,140 - INFO - Range : 21000 ... 615999 =     21.000 ...   615.999 secs
+2024-11-20 02:53:40,140 - INFO - Ready.
+2024-11-20 02:53:40,167 - INFO - Opening raw data file C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-02\meg\sub-00_ses-02_task-transient_all.fif...
+2024-11-20 02:53:40,167 - ERROR - C:\Users\tillhabersetzer\AppData\Local\Temp\ipykernel_31640\2839474741.py:8: RuntimeWarning: This filename (C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-02\meg\sub-00_ses-02_task-transient_all.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  raw2 = mne.io.read_raw_fif(data_path2, allow_maxshield=False, verbose=True)
+2024-11-20 02:53:40,207 - INFO - Read a total of 8 projection items:
+2024-11-20 02:53:40,207 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,207 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,207 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,208 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,208 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,209 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,209 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,209 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:53:40,228 - INFO - Range : 33000 ... 624999 =     33.000 ...   624.999 secs
+2024-11-20 02:53:40,228 - INFO - Ready.
+2024-11-20 02:53:47,285 - INFO - Maxwell filtering raw data
+2024-11-20 02:53:47,315 - INFO - 102 of 102 magnetometer types replaced with T3.
+2024-11-20 02:53:47,351 - INFO - No bad MEG channels
+2024-11-20 02:53:47,363 - INFO - Processing 204 gradiometers and 102 magnetometers
+2024-11-20 02:53:47,369 - INFO - Using fine calibration sss_cal.dat
+2024-11-20 02:53:47,444 - INFO - Adjusting non-orthogonal EX and EY
+2024-11-20 02:53:47,485 - INFO - Adjusted coil positions by (μ ± σ): 0.2° ± 0.2° (max: 1.5°)
+2024-11-20 02:53:47,489 - INFO - Automatic origin fit: head of radius 93.7 mm
+2024-11-20 02:53:47,489 - INFO - Using origin 1.5, 10.0, 45.3 mm in the head frame
+2024-11-20 02:53:47,582 - INFO - Processing data using tSSS with st_duration=10.0
+2024-11-20 02:53:48,550 - INFO - Using 85/95 harmonic components for    0.000  (70/80 in, 15/15 out)
+2024-11-20 02:53:48,579 - INFO - Loading raw data from disk
+2024-11-20 02:53:50,967 - INFO - Spatiotemporal window did not fit evenly intocontiguous data segment. 2.00 seconds were lumped into the previous window.
+2024-11-20 02:53:50,967 - INFO - Processing 59 data chunks
+2024-11-20 02:53:52,553 - INFO - Projecting  0 intersecting tSSS components for    0.000 -    9.999 s  (#1/59)
+2024-11-20 02:53:55,024 - INFO - Projecting  0 intersecting tSSS components for   10.000 -   19.999 s  (#2/59)
+2024-11-20 02:54:06,940 - INFO - Projecting  0 intersecting tSSS components for   20.000 -   29.999 s  (#3/59)
+2024-11-20 02:54:23,054 - INFO - Projecting  0 intersecting tSSS components for   30.000 -   39.999 s  (#4/59)
+2024-11-20 02:54:32,563 - INFO - Projecting  0 intersecting tSSS components for   40.000 -   49.999 s  (#5/59)
+2024-11-20 02:54:35,943 - INFO - Projecting  0 intersecting tSSS components for   50.000 -   59.999 s  (#6/59)
+2024-11-20 02:54:39,594 - INFO - Projecting  0 intersecting tSSS components for   60.000 -   69.999 s  (#7/59)
+2024-11-20 02:54:43,996 - INFO - Projecting  0 intersecting tSSS components for   70.000 -   79.999 s  (#8/59)
+2024-11-20 02:54:50,547 - INFO - Projecting  0 intersecting tSSS components for   80.000 -   89.999 s  (#9/59)
+2024-11-20 02:54:59,248 - INFO - Projecting  0 intersecting tSSS components for   90.000 -   99.999 s (#10/59)
+2024-11-20 02:55:02,955 - INFO - Projecting  0 intersecting tSSS components for  100.000 -  109.999 s (#11/59)
+2024-11-20 02:55:06,318 - INFO - Projecting  0 intersecting tSSS components for  110.000 -  119.999 s (#12/59)
+2024-11-20 02:55:11,941 - INFO - Projecting  0 intersecting tSSS components for  120.000 -  129.999 s (#13/59)
+2024-11-20 02:55:15,648 - INFO - Projecting  0 intersecting tSSS components for  130.000 -  139.999 s (#14/59)
+2024-11-20 02:55:22,266 - INFO - Projecting  0 intersecting tSSS components for  140.000 -  149.999 s (#15/59)
+2024-11-20 02:55:31,598 - INFO - Projecting  0 intersecting tSSS components for  150.000 -  159.999 s (#16/59)
+2024-11-20 02:55:36,099 - INFO - Projecting  0 intersecting tSSS components for  160.000 -  169.999 s (#17/59)
+2024-11-20 02:55:40,090 - INFO - Projecting  0 intersecting tSSS components for  170.000 -  179.999 s (#18/59)
+2024-11-20 02:55:45,742 - INFO - Projecting  0 intersecting tSSS components for  180.000 -  189.999 s (#19/59)
+2024-11-20 02:55:53,475 - INFO - Projecting  0 intersecting tSSS components for  190.000 -  199.999 s (#20/59)
+2024-11-20 02:55:56,250 - INFO - Projecting  0 intersecting tSSS components for  200.000 -  209.999 s (#21/59)
+2024-11-20 02:56:08,995 - INFO - Projecting  0 intersecting tSSS components for  210.000 -  219.999 s (#22/59)
+2024-11-20 02:58:42,354 - INFO - Opening raw data file C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-01\meg\sub-00_ses-01_task-transient_all.fif...
+2024-11-20 02:58:42,355 - ERROR - C:\Users\tillhabersetzer\AppData\Local\Temp\ipykernel_31640\3895762497.py:3: RuntimeWarning: This filename (C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-01\meg\sub-00_ses-01_task-transient_all.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  raw1 = mne.io.read_raw_fif(data_path1, allow_maxshield=False, verbose=True)
+2024-11-20 02:58:42,368 - INFO - Read a total of 8 projection items:
+2024-11-20 02:58:42,368 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,368 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,368 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,368 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,368 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,369 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,369 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,369 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,378 - INFO - Range : 21000 ... 615999 =     21.000 ...   615.999 secs
+2024-11-20 02:58:42,378 - INFO - Ready.
+2024-11-20 02:58:42,388 - INFO - Opening raw data file C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-02\meg\sub-00_ses-02_task-transient_all.fif...
+2024-11-20 02:58:42,389 - ERROR - C:\Users\tillhabersetzer\AppData\Local\Temp\ipykernel_31640\3895762497.py:8: RuntimeWarning: This filename (C:\Users\tillhabersetzer\Nextcloud\Synchronisation\Projekte\GitHub\Oksima\rawdata\pilot\study\sub-00\ses-02\meg\sub-00_ses-02_task-transient_all.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, _meg.fif, _eeg.fif, _ieeg.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz, _meg.fif.gz, _eeg.fif.gz or _ieeg.fif.gz
+  raw2 = mne.io.read_raw_fif(data_path2, allow_maxshield=False, verbose=True)
+2024-11-20 02:58:42,403 - INFO - Read a total of 8 projection items:
+2024-11-20 02:58:42,403 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,403 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,403 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,403 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,403 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,403 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,403 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,404 - INFO - generated with dossp-2.1 (1 x 306)  idle
+2024-11-20 02:58:42,414 - INFO - Range : 33000 ... 624999 =     33.000 ...   624.999 secs
+2024-11-20 02:58:42,414 - INFO - Ready.

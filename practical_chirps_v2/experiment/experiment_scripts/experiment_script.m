@@ -105,7 +105,7 @@ end
 asio_driver = settings.asio_driver;
 if strcmp(asio_driver,'ASIO Fireface USB')
     output_channel = [0 1 8];
-else if strcmp(asio_driver,'Focusrite USB ASIO')
+elseif strcmp(asio_driver,'Focusrite USB ASIO')
     output_channel = [0 1 2];
 else 
     error('Unexpected Asio Driver: %s!',asio_driver)

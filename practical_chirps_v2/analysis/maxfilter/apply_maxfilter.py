@@ -26,6 +26,9 @@ from pathlib import Path
 import mne
 from mne.preprocessing import find_bad_channels_maxwell
 
+
+print(mne.get_config("MNE_LOGGING_LEVEL"))
+
 subjects = ["sub-01", "sub-02", "sub-03"]
 
 fnames = [
@@ -78,6 +81,7 @@ if MC:
         # use reduced set for head movement computations
         fnames_reduced = [fname for fname in fnames if not "emptyroom" in fname]
         for fname in fnames_reduced:
+
             fname_prefix = subject + "_task-" + fname
             raw_fname = Path(rawdata_dir, fname_prefix + ".fif")
             headpos_fname = Path(dir2save, fname_prefix + "_raw.pos")
@@ -88,6 +92,9 @@ if MC:
                 raw = mne.io.read_raw_fif(
                     raw_fname, allow_maxshield=False, verbose=True
                 )
+            
+                # Save log file
+                # mne.set_log_file(fname=Path(dir2save, fname_prefix + "-log.html"))
 
                 # Compute head position
                 # ----------------------
@@ -146,6 +153,9 @@ for subject in subjects:
 
         if raw_fname.is_file():
             raw = mne.io.read_raw_fif(raw_fname, allow_maxshield=False, verbose=True)
+            
+            # Save log file
+            # mne.set_log_file(fname=Path(dir2save, fname_prefix + "-log.html"))
 
             # Oversampled temporal projection
             # --------------------------------

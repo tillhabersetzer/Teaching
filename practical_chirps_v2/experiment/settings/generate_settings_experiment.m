@@ -19,7 +19,7 @@ clc
 %-------------------------------------------
 
 % TIP 300 earphones without equalization
-settings.calibration.tip300.cal_val.click = [111.5,111.5];
+settings.calibration.tip300.cal_val.click = [111.0,111.5];
 settings.calibration.tip300.cal_val.up    = [116.5,116.5];
 settings.calibration.tip300.cal_val.down  = [116.5,116.5];
 
@@ -44,13 +44,13 @@ settings.calibration.sensimetrics_eq.cal_val.down  = [106.5,111];
 % mean(0 dB SL, up) ~ 33 dB peSPL
 
 % Start 20 dB over dummy threshold for stimuli
-settings.threshold.start_level.click  = 40 + 20;
-settings.threshold.start_level.up     = 33 + 20;
-settings.threshold.start_level.down   = 33 + 20;
+settings.threshold.start_level.click  = 60;
+settings.threshold.start_level.up     = 60;
+settings.threshold.start_level.down   = 60;
 
 % TIP 300 earphones without equalization
-settings.threshold.tip300.click = [31,31]; 
-settings.threshold.tip300.up    = [31,31]; 
+settings.threshold.tip300.click = [33,33]; 
+settings.threshold.tip300.up    = [30,30]; 
 
 % Sensimetrics earphones without equalization
 settings.threshold.sensimetrics.click = [32,32];
@@ -81,7 +81,7 @@ settings.trig_id.down  = 4;
 % Others
 %--------------------------------------------------------------------------
 settings.setup              = 'Practical MEG';
-settings.n_stimuli          = 100;
+settings.n_stimuli          = 1200;
 settings.jitter             = [0.35,0.05];  % 350 ms + 50 ms randomized jitter
 settings.target_level_dB_SL = 40;   
 

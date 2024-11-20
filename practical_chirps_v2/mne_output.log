@@ -1,0 +1,9 @@
+Maxwell filtering raw data
+102 of 102 magnetometer types replaced with T3.
+    No bad MEG channels
+    Processing 204 gradiometers and 102 magnetometers
+    Using fine calibration sss_cal.dat
+        Adjusting non-orthogonal EX and EY
+    Automatic origin fit: head of radius 93.7 mm
+    Using origin 1.5, 10.0, 45.3 mm in the head frame
+    Processing data using tSSS with st_duration=10.0

@@ -78,8 +78,8 @@ clc
 % - Measure p-p voltage on oscilloscope
 % - Note down stim_dB_Fs_transient
 filename             = 'up';
-channel              = 0;
-gain_dB              = -20;
+channel              = 1;
+gain_dB              = -30;
 show_audio_tracks    = false;
 level_stim_transient = calibration_transient(channel, gain_dB, filename, show_audio_tracks);
 
@@ -88,8 +88,8 @@ level_stim_transient = calibration_transient(channel, gain_dB, filename, show_au
 %   p-p voltage of the transient
 % - Note down the level on the sound level meter (level_slm)
 filename          = 'sinus';
-channel           = 0;
-gain_dB           = -15;
+channel           = 1;
+gain_dB           = -30;
 show_audio_tracks = false;
 level_stim_sinus  = calibration_transient(channel, gain_dB, filename, show_audio_tracks);
 
@@ -106,10 +106,10 @@ level_stim_sinus  = calibration_transient(channel, gain_dB, filename, show_audio
 %   - change calibration value to dB peSPL and measure peak SPL value of
 %     transient
 
-filename          = 'up';
+filename          = 'click';
 channel           = 0;
-cal_val           = [115,110];
-target_level      = 80; % dB (p-p) peSPL
+cal_val           = [116.5,116.5];
+target_level      = 95; % dB (p-p) peSPL
 show_audio_tracks = false;
 check_calibration(channel, filename, target_level, cal_val, show_audio_tracks)
 

@@ -74,6 +74,7 @@ print(f"Roll (z-axis rotation): {roll:.2f} degrees\n")
 
 #%% Maxwell filtering (tSSS) with headposition transformation to first session
 #------------------------------------------------------------------------------
+
 # Use headposition of first recorded session as reference
 destination   = data_path1
 raw2_tsss_hpt = mne.preprocessing.maxwell_filter(raw2, cross_talk=crosstalk_file, 
